@@ -10,7 +10,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class DeviceIdentifierPlugin(activity: Activity): MethodCallHandler {
+class DeviceIdentifierPlugin(activity: Activity?): MethodCallHandler {
   private var activity: Activity? = null
 
   companion object {
